@@ -1,17 +1,17 @@
-name: Swift
+name: Build
 
 on: [push]
 
 jobs:
     test:
       name: Build
-      runs-on: macOS-latest
+      runs-on: macos-latest
       strategy:
           matrix:
             destination: ['platform=iOS Simulator,OS=13.2.2,name=iPhone 11', 'platform=tvOS Simulator,OS=13.2,name=Apple TV 4K']
       steps:
         - name: Checkout
-          uses: actions/checkout@master
+          uses: actions/checkout@v2
         - name: Build
           run: |
             cd CleanCodeTest
