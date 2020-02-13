@@ -1,6 +1,6 @@
 name: Build
 
-on: 
+on:
   push:
     branches:
       - master
@@ -17,7 +17,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Build
-          run: 
+          run:
              xcodebuild clean build -project CleanCodeTest.xcodeproj -scheme CleanCodeTest -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
           env:
            destination: ${{ matrix.destination }}
@@ -30,8 +30,8 @@ jobs:
              ./cc-test-reporter before-build
              ./cc-test-reporter format-coverage -t xccov
              ./cc-test-reporter upload-coverage -d
-        env:
-          CC_TEST_REPORTER_ID: 1b30203e616a0d1e4ef03487f96008740987235a471a7784ffffeeb71bcd1b8c
+          env:
+           CC_TEST_REPORTER_ID: 1b30203e616a0d1e4ef03487f96008740987235a471a7784ffffeeb71bcd1b8c
            
     
 
