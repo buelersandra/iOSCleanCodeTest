@@ -1,6 +1,9 @@
 name: Build
 
-on: [push]
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
     test:
@@ -10,12 +13,11 @@ jobs:
           matrix:
             destination: ['platform=iOS Simulator,OS=13.2.2,name=iPhone 11', 'platform=tvOS Simulator,OS=13.2,name=Apple TV 4K']
       steps:
-        - name: Checkout
-          uses: actions/checkout@v2
+#         - name: Checkout
+#           uses: actions/checkout@v2
         - name: Build
-          run: |
-            cd CleanCodeTest
-            xcodebuild clean build -project CleanCodeTest.xcodeproj -scheme CleanCodeTest -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          run: 
+             xcodebuild clean build -project CleanCodeTest.xcodeproj -scheme CleanCodeTest -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
           env:
            destination: ${{ matrix.destination }}
 
