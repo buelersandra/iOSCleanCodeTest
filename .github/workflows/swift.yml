@@ -22,15 +22,14 @@ jobs:
           env:
            destination: ${{ matrix.destination }}
         - name: Publish Code Coverage To Code Climate
-        run: |
-          xcodebuild -project CleanCodeTest.xcodeproj/ -scheme CleanCodeTest -derivedDataPath Build/ -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 8' -enableCodeCoverage YES clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-          
-          export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
-          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64  > ./cc-test-reporter
-          chmod +x ./cc-test-reporter
-          ./cc-test-reporter before-build
-          ./cc-test-reporter format-coverage -t xccov
-          ./cc-test-reporter upload-coverage -d
+          run:  |
+             xcodebuild -project CleanCodeTest.xcodeproj/ -scheme CleanCodeTest -derivedDataPath Build/ -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 8' -enableCodeCoverage YES clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+             export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
+             curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64  > ./cc-test-reporter
+             chmod +x ./cc-test-reporter
+             ./cc-test-reporter before-build
+             ./cc-test-reporter format-coverage -t xccov
+             ./cc-test-reporter upload-coverage -d
         env:
           CC_TEST_REPORTER_ID: 1b30203e616a0d1e4ef03487f96008740987235a471a7784ffffeeb71bcd1b8c
            
