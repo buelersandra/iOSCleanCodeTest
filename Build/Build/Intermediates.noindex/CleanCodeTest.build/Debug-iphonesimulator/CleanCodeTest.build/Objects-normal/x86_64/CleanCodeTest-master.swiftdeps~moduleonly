@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "ea65c3cb2783310358d7cd7acfca0265"
+build_time: [1581619340, 13126000]
+inputs:
+  "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTest/Model/Person.swift": [1581613989, 16215949]
+  "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTest/ViewController.swift": [1581591265, 944762290]
+  "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTest/AppDelegate.swift": [1581591265, 937898402]
+  "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTest/SceneDelegate.swift": [1581591265, 942882338]

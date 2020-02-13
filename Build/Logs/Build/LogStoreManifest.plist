@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>02BA827C-47D8-4193-B2C9-E43E1A0E0910</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>02BA827C-47D8-4193-B2C9-E43E1A0E0910.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanCodeTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanCodeTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>timeStartedRecording</key>
+			<real>603312139.44661903</real>
+			<key>timeStoppedRecording</key>
+			<real>603312149.65119302</real>
+			<key>title</key>
+			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>02BA827C-47D8-4193-B2C9-E43E1A0E0910</string>
+		</dict>
+		<key>AA787373-5EF0-4AAC-ACAC-97268E815134</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA787373-5EF0-4AAC-ACAC-97268E815134.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanCodeTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanCodeTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>timeStartedRecording</key>
+			<real>603312149.65172505</real>
+			<key>timeStoppedRecording</key>
+			<real>603312150.72925103</real>
+			<key>title</key>
+			<string>Testing project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>AA787373-5EF0-4AAC-ACAC-97268E815134</string>
+		</dict>
+		<key>F8BC1C90-7EB8-4708-9508-02B384D543FE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F8BC1C90-7EB8-4708-9508-02B384D543FE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanCodeTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanCodeTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>timeStartedRecording</key>
+			<real>603312139.36276805</real>
+			<key>timeStoppedRecording</key>
+			<real>603312139.44580305</real>
+			<key>title</key>
+			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>F8BC1C90-7EB8-4708-9508-02B384D543FE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
