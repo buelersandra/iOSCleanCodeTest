@@ -3,13 +3,40 @@ name: Swift
 on: [push]
 
 jobs:
-  build:
+    test:
+      name: Build
+      runs-on: macOS-latest
+      strategy:
+          matrix:
+            destination: ['platform=iOS Simulator,OS=13.2.2,name=iPhone 11', 'platform=tvOS Simulator,OS=13.2,name=Apple TV 4K']
+      steps:
+        - name: Checkout
+          uses: actions/checkout@master
+        - name: Build
+          run: |
+            cd CleanCodeTest
+            xcodebuild clean build -project CleanCodeTest.xcodeproj -scheme CleanCodeTest -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          env:
+           destination: ${{ matrix.destination }}
 
-    runs-on: macos-latest
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
-    #- name: Run tests
-      #run: swift test -v
+#on:push:
+#    branches:
+#      - master
+#name: Build
+#jobs:
+#  test:
+#    name: Build
+#    runs-on: macOS-latest
+#    strategy:
+#        matrix:
+#          destination: ['platform=iOS Simulator,OS=13.2.2,name=iPhone 11', 'platform=tvOS Simulator,OS=13.2,name=Apple TV 4K']
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@master
+#      - name: Build
+#        run: |
+#          cd CleanCodeTest
+#          xcodebuild clean build -project CleanCodeTest.xcodeproj -scheme CleanCodeTest -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+#        env:
+#         destination: ${{ matrix.destination }}
