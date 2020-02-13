@@ -51,6 +51,51 @@
 			<key>uniqueIdentifier</key>
 			<string>39732180-7D2E-4A09-97B0-022EE7A6A38F</string>
 		</dict>
+		<key>EB71BBED-7BAE-4603-A732-7B43706EB26F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2DEC0393-7376-438A-A6DC-5E1186323CB7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-CleanCodeTest-2020.02.13_20-06-44-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanCodeTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanCodeTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run CleanCodeTest</string>
+			<key>timeStartedRecording</key>
+			<real>603317204.00318694</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run CleanCodeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>EB71BBED-7BAE-4603-A732-7B43706EB26F</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "b450c89dc74320096ff3041d9781a44f"
-build_time: [1581619350, 9869000]
+build_time: [1581624406, 732746000]
 inputs:
   "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTestTests/PersonTest.swift": [1581613961, 963222337]
   "/Users/beulahana/Xcode/CleanCodeTest/CleanCodeTestTests/CleanCodeTestTests.swift": [1581591267, 604564559]

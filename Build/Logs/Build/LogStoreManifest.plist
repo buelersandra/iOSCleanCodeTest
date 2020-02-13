@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>02BA827C-47D8-4193-B2C9-E43E1A0E0910</key>
+		<key>2DEC0393-7376-438A-A6DC-5E1186323CB7</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>02BA827C-47D8-4193-B2C9-E43E1A0E0910.xcactivitylog</string>
+			<string>2DEC0393-7376-438A-A6DC-5E1186323CB7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -30,15 +30,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
 			<key>timeStartedRecording</key>
-			<real>603312139.44661903</real>
+			<real>603317204.00115895</real>
 			<key>timeStoppedRecording</key>
-			<real>603312149.65119302</real>
+			<real>603317204.10859704</real>
 			<key>title</key>
-			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
 			<key>uniqueIdentifier</key>
-			<string>02BA827C-47D8-4193-B2C9-E43E1A0E0910</string>
+			<string>2DEC0393-7376-438A-A6DC-5E1186323CB7</string>
 		</dict>
 		<key>AA787373-5EF0-4AAC-ACAC-97268E815134</key>
 		<dict>
@@ -74,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>AA787373-5EF0-4AAC-ACAC-97268E815134</string>
 		</dict>
-		<key>F8BC1C90-7EB8-4708-9508-02B384D543FE</key>
+		<key>B02F8E96-02D2-4A86-B05C-634017987714</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F8BC1C90-7EB8-4708-9508-02B384D543FE.xcactivitylog</string>
+			<string>B02F8E96-02D2-4A86-B05C-634017987714.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -98,15 +98,49 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
+			<string>Testing project CleanCodeTest with scheme CleanCodeTest</string>
 			<key>timeStartedRecording</key>
-			<real>603312139.36276805</real>
+			<real>603317206.41777205</real>
 			<key>timeStoppedRecording</key>
-			<real>603312139.44580305</real>
+			<real>603317207.30293202</real>
 			<key>title</key>
-			<string>Cleaning project CleanCodeTest with scheme CleanCodeTest</string>
+			<string>Testing project CleanCodeTest with scheme CleanCodeTest</string>
 			<key>uniqueIdentifier</key>
-			<string>F8BC1C90-7EB8-4708-9508-02B384D543FE</string>
+			<string>B02F8E96-02D2-4A86-B05C-634017987714</string>
+		</dict>
+		<key>F10ECFBB-006F-4F25-98C8-885FDC4DF458</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F10ECFBB-006F-4F25-98C8-885FDC4DF458.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanCodeTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanCodeTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>timeStartedRecording</key>
+			<real>603317204.10929704</real>
+			<key>timeStoppedRecording</key>
+			<real>603317206.41725802</real>
+			<key>title</key>
+			<string>Building project CleanCodeTest with scheme CleanCodeTest</string>
+			<key>uniqueIdentifier</key>
+			<string>F10ECFBB-006F-4F25-98C8-885FDC4DF458</string>
 		</dict>
 	</dict>
 </dict>
