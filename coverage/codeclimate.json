@@ -1,0 +1,118 @@
+{
+  "ci_service": {
+    "branch": "master",
+    "build_identifier": "",
+    "build_url": "",
+    "commit_sha": "a600ba918fbb6d4495fa8acbd7d39d2666de0c93",
+    "committed_at": 1581680431,
+    "name": ""
+  },
+  "environment": {
+    "gem_version": "3.0.3",
+    "package_version": "",
+    "pwd": "/Users/beulahana/Xcode/CleanCodeTest",
+    "prefix": "/Users/beulahana/Xcode/CleanCodeTest",
+    "rails_root": "",
+    "reporter_version": "latest",
+    "simplecov_root": ""
+  },
+  "git": {
+    "branch": "master",
+    "head": "a600ba918fbb6d4495fa8acbd7d39d2666de0c93",
+    "committed_at": 1581680431
+  },
+  "covered_percent": 40.10416666666667,
+  "covered_strength": 0,
+  "line_counts": {
+    "missed": 115,
+    "covered": 77,
+    "total": 192
+  },
+  "source_files": [
+    {
+      "blob_id": "74a562694453e88b89da458badc70bb33d3b9791",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,1,null,0,0,0,0,0,0,null,1,1,1,1,null,0,0,0,0,null,1,1,1,1,null,0,0,0,0,0,0,0,0]",
+      "covered_percent": 43.75,
+      "covered_strength": 0.4375,
+      "line_counts": {
+        "missed": 18,
+        "covered": 14,
+        "total": 32
+      },
+      "name": "CleanCodeTest/SceneDelegate.swift"
+    },
+    {
+      "blob_id": "dee2b8d3d29d8244a457f75a12dd2d14f3c2d457",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,1,1,null,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 33,
+        "total": 33
+      },
+      "name": "CleanCodeTestTests/PersonTest.swift"
+    },
+    {
+      "blob_id": "28b81837f7bbaaff88ae513005c0a40efe8cac3f",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,null,1,1,1,null,1,1,1,1,null,1,1,1,1,1,1,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 19,
+        "total": 19
+      },
+      "name": "CleanCodeTestTests/CleanCodeTestTests.swift"
+    },
+    {
+      "blob_id": "24f7e7a33f8cf3cc6d08fb45f669be14905d6143",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,0,0,0,0,0,0,0,0,null,0,0,0,null,0,0,0,0,0,0,0,0,null,0,0,0,0,0,0,0,0,0,0,0]",
+      "covered_percent": 0,
+      "covered_strength": 0,
+      "line_counts": {
+        "missed": 30,
+        "covered": 0,
+        "total": 30
+      },
+      "name": "CleanCodeTestUITests/CleanCodeTestUITests.swift"
+    },
+    {
+      "blob_id": "a37654a11e4c19a1ccf8c2bd6ff25dbf01afba1a",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 4,
+        "total": 4
+      },
+      "name": "CleanCodeTest/ViewController.swift"
+    },
+    {
+      "blob_id": "c92860cfbbd2f7a335b684139f8d444f586316f8",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 3,
+        "total": 3
+      },
+      "name": "CleanCodeTest/Model/Person.swift"
+    },
+    {
+      "blob_id": "22b8e192935c67468f4c634205a3b1a24fd3edce",
+      "coverage": "[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,null,null,null,0,0,0,0,0,null,0,0,0,0,0,null,null,null,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]",
+      "covered_percent": 5.633802816901409,
+      "covered_strength": 0.056338028169014086,
+      "line_counts": {
+        "missed": 67,
+        "covered": 4,
+        "total": 71
+      },
+      "name": "CleanCodeTest/AppDelegate.swift"
+    }
+  ],
+  "repo_token": "1b30203e616a0d1e4ef03487f96008740987235a471a7784ffffeeb71bcd1b8c"
+}
