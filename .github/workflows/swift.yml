@@ -24,7 +24,7 @@ jobs:
         - name: Publish Code Coverage To Code Climate
           run:  |
             xcrun xccov view --report --json xccov.xcresult > coverage.json
-            rm 'xccov.xcresult'
+            rm -r 'xccov.xcresult'
              export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
              curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64  > ./cc-test-reporter
              chmod +x ./cc-test-reporter
